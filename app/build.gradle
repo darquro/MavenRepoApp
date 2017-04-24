@@ -19,7 +19,7 @@ android {
     }
 }
 repositories {
-    maven { url 'http://darquro.cf/MavenRepoLib/repository' }
+    maven { url 'https://darquro.github.io/MavenRepoLib/repository' }
 }
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
